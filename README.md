@@ -18,7 +18,7 @@
 | `Area` | Area density category (A = rural to F = urban). |
 | `Density` | Population density of the policyholder's town. |
 | `Region` | French administrative region (INSEE). |
-``
+
 
 <img width="1102" height="565" alt="image" src="https://github.com/user-attachments/assets/77887639-9004-441b-b7ea-4b14b2bfe31b" />
 
