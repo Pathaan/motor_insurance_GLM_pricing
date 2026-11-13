@@ -19,17 +19,6 @@
 | `Density` | Population density of the policyholder's town. |
 | `Region` | French administrative region (INSEE). |
 
-## Files (run in order)
-**01_data_loading.py** — fetch/load freMTPL2freq (+ freMTPL2sev), basic sanity checks
 
-**02_eda.py** — portfolio summary, frequency by rating factor, severity analysis, loss/frequency heatmaps, overdispersion test, missing values, correlation matrix
+<img width="1102" height="565" alt="image" src="https://github.com/user-attachments/assets/77887639-9004-441b-b7ea-4b14b2bfe31b" />
 
-**03_feature_engineering.py** — outlier capping, banding, interactions, encoding
-
-**04_frequency_glm.py** — Poisson / Negative Binomial frequency GLM with log(Exposure) offset
-
-**05_severity_glm_and_tweedie.py** — Gamma severity GLM + Tweedie combined pure-premium GLM
-
-**06_diagnostics_and_validation.py** — deviance residuals, lift charts, Gini/Lorenz, train/test split, calibration
-
-**07_rating_table.py** — final multiplicative relativity table from fitted GLMs
